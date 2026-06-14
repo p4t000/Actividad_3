@@ -1,3 +1,164 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*Para trabajar 1rem = 10px*/
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%; /*Esto permite que las imagenes cambien tamaño segun el contenedor en el que estan*/
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+}
+
+.navbar a img {
+  max-width: 10rem;
+  margin-right: 12rem;
+}
+
+.navbar-elementos {
+  display: flex;
+}
+
+.navbar-elementos ul {
+  display: flex;
+}
+
+.elementos li {
+  list-style: none;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+.elementos li a {
+  text-decoration: none;
+  color: #003366;
+}
+
+.cotizacion {
+  margin-left: 12rem;
+  text-decoration: none;
+  background-color: #FFAA00;
+  color: #003366;
+  padding: 1.2rem;
+  border-radius: 2rem;
+}
+
+.cotizacion-contenedor {
+  margin-top: 1.5rem;
+}
+
+.banner {
+  background-image: url("../img/banner.png");
+  background-position: center;
+  background-size: cover;
+  height: 42rem;
+}
+
+.texto-naranja {
+  color: #FFAA00;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.texto-azul {
+  color: #003366;
+}
+
+.texto-centrado {
+  margin-left: 30rem;
+}
+
+.texto-blanco {
+  color: white
+}
+
+.banner-texto1 {
+  padding-top: 10rem;
+}
+
+.banner h1 {
+  font-size: 4rem;
+  color:white;
+}
+
+.banner h2 {
+  color: #A3D9A5;
+}
+
+.banner-texto2 {
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.banner-enlace1 {
+  margin-right: 2rem;
+  text-decoration: none;
+  background-color: #FFAA00;
+  padding: 1.3rem;
+  border-radius: 2rem;
+}
+
+.banner-enlace2 {
+  text-decoration: none;
+  border: solid;
+  border-color: white;
+  color: white;
+  padding: 1.3rem;
+  border-radius: 2rem;
+}
+
+.nosotros {
+  display: flex;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.nosotros-texto {
+  flex-basis: 50%;
+  margin-right: 5rem;
+}
+
+.nosotros-img {
+  flex-basis: 50%;
+}
+
+.nosotros-img img {
+  border-radius: 2rem;
+  height: 23rem;
+}
+
+.valores {
+  padding: 10rem 0rem;
+  background-color: #003366;
+}
+
+.valores-cajas {
+  display: flex;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  justify-content: center;
+}
+
+.cajas {
+  border-radius: 2rem;
+  background-color: white;
+  padding: 2rem;
+  margin: 2rem 2rem 2rem 0rem;
+  width: 28rem;
 }
