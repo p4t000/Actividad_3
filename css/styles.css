@@ -162,3 +162,171 @@ body {
   margin: 2rem 2rem 2rem 0rem;
   width: 28rem;
 }
+
+.nuestros-servicios {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.cajas2 {
+  border-radius: 1.5rem;
+  border: solid;
+  border-color: #D9D9D9;
+  border-width: .2rem;
+  background-color: white;
+  padding: 3.2rem 2rem 2rem 2rem;
+  margin: 2rem 2rem 2rem 0rem;
+  width: 28rem;
+  font-size: 1.4rem;
+}
+
+.cajas2 span {
+  padding: 1.2rem 1.5rem;
+  margin-top: 2rem;
+  border-radius: .8rem;
+  background-color: #A3D9A5;
+}
+
+.cobertura {
+  padding: 10rem 0rem;
+  background-color: #D9D9D9;
+  display: flex;
+  align-items: center;
+}
+
+.cobertura ul li {
+  list-style: none;
+}
+
+.cobertura-texto {
+  flex-basis: 50%;
+  margin-right: 8rem;
+}
+
+.zonas-atencion {
+  border-radius: 1.5rem;
+  padding: 1rem 3rem 3rem 3rem;
+  background-color: white;
+  width: 40rem;
+  font-size: 1.4rem;
+}
+
+.ciudades {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+}
+
+.ciudades span {
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: #003366;
+  color: white;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+}
+
+.contacto {
+  display: flex;
+  padding: 10rem 0rem;
+  margin-left: 30rem;
+}
+
+.contacto-texto {
+  width: 40rem;
+  margin-right: 10rem;
+}
+
+.datos-empresa {
+  border-radius: 2rem;
+  background-color: #D9D9D9;
+  padding: 1rem 2rem;
+}
+
+.contacto-formulario {
+  border: solid;
+  border-radius: 1rem;
+  border-color: #D9D9D9;
+  border-width: .2rem;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  margin: 0 auto;
+}
+
+.formulario label {
+  margin: 1rem 0rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.formulario input, textarea {
+  padding: 1rem;
+  border-radius: .5rem;
+  border: solid;
+  border-color: #D9D9D9;
+  border-width: .2rem;
+}
+
+.button {
+  margin-top: 2rem;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  background-color: #FFAA00;
+  color: #003366;
+  font-weight: bold;
+  font-size: 1.4rem;
+  border: none;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 5rem 30rem 2rem 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-contenido {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-enlaces {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.footer-enlaces a {
+  text-decoration: none;
+  color: white;
+  margin: .5rem 0rem;
+  font-size: 1.4rem;
+}
+
+.footer-info h2 {
+  color: #FFAA00;
+}
+
+.footer-info p {
+  font-size: 1.4rem;
+}
+
+.footer-contacto p {
+  font-size: 1.4rem;
+}
+
+.footer-copy {
+  border-top: solid .1rem #D9D9D9;
+}
+
+.footer-copy p {
+  font-size: 1.2rem;
+}
